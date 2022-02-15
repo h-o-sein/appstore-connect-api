@@ -1,20 +1,20 @@
-# appstore connect api
+# AppStore Connect API
 
-> unoffical sdk for appstore connect api. *currently partially*
+> Unoffical SDK for AppStore Connect API. *currently partially*
 
 [see detail](https://developer.apple.com/documentation/appstoreconnectapi)
 
 
-## install
+## Install
 
 ```
-composer require yunchuang/appstore-connect-api
+composer require h-o-sein/appstore-connect-api
 ```
 
-## example
+## Example
 ```php
 
-use MingYuanYun\AppStore\Client;
+use h-o-sein\AppStore\Client;
 
 $config = [
     'iss' => 'xx-xx-xx-xx-xxx',
@@ -105,6 +105,6 @@ $result = $client->api('profiles')->create($name, $bId, $profileType, $devices, 
 ```
 
 
-## remark
+## Remark
 
 - the profile content is base64 encoded, so you should base64 decode firstly, and then save as xxx.mobileprovision.
