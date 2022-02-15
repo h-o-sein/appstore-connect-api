@@ -6,10 +6,6 @@ namespace hosein\AppStore\Api;
 
 class Profiles extends AbstractApi
 {
-    public function query(array $params = [])
-    {
-        return $this->get('/profiles', $params);
-    }
 
     public function create($name, $bId, $profileType, array $devices = [], array $certificates = [])
     {

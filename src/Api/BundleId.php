@@ -6,7 +6,7 @@ namespace hosein\AppStore\Api;
 
 class BundleId extends AbstractApi
 {
-    public function all(array $params = [])
+    public function listBundleIDs(array $params = [])
     {
         return $this->get('/bundleIds', $params);
     }
