@@ -69,6 +69,10 @@ class Profiles extends AbstractApi
         return $this->get('/profiles/' . $pId . '/relationships/certificates', $params);
     }
 
+    public function readBundleID($pId, array $params = []) {
+        return $this->get('/profiles/' . $pId . '/bundleId', $params);
+    }
+
     public function drop($pId)
     {
         return $this->delete('/profiles/' . $pId);
