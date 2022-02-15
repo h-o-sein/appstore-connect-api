@@ -1,13 +1,13 @@
 <?php
 
 
-namespace MingYuanYun\AppStore;
+namespace hosein\AppStore;
 
 
-use MingYuanYun\AppStore\Exceptions\ConfigException;
-use MingYuanYun\AppStore\Exceptions\InvalidArgumentException;
-use MingYuanYun\AppStore\Utils\HttpClient;
-use MingYuanYun\AppStore\Utils\JWT;
+use hosein\AppStore\Exceptions\ConfigException;
+use hosein\AppStore\Exceptions\InvalidArgumentException;
+use hosein\AppStore\Utils\HttpClient;
+use hosein\AppStore\Utils\JWT;
 
 class Client
 {

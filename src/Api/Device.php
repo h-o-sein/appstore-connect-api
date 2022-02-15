@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MingYuanYun\AppStore\Api;
+namespace hosein\AppStore\Api;
 
 
 class Device extends AbstractApi

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MingYuanYun\AppStore\Api;
+namespace hosein\AppStore\Api;
 
 
 class Profiles extends AbstractApi
@@ -49,6 +49,14 @@ class Profiles extends AbstractApi
             ];
         }
         return $this->postJson('/profiles', $data);
+    }
+
+    public function getProfile($pId, array $params = []) {
+        return $this->get('/profiles/' . $pId, $params);
+    }
+
+    public function listProfiles(array $params = []) {
+        return $this->get('/profiles', $params);
     }
 
     public function listDevices($pId, array $params = [])

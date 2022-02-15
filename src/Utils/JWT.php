@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MingYuanYun\AppStore\Utils;
+namespace hosein\AppStore\Utils;
 
 
-use MingYuanYun\AppStore\Exceptions\RuntimeException;
+use hosein\AppStore\Exceptions\RuntimeException;
 
 class JWT
 {

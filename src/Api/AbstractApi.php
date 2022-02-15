@@ -1,9 +1,9 @@
 <?php
 
 
-namespace MingYuanYun\AppStore\Api;
+namespace hosein\AppStore\Api;
 
-use MingYuanYun\AppStore\Client;
+use hosein\AppStore\Client;
 
 abstract class AbstractApi implements ApiInterface
 {

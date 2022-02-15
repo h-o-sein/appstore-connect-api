@@ -1,6 +1,6 @@
 <?php
 
-namespace MingYuanYun\AppStore\Api;
+namespace hosein\AppStore\Api;
 
 
 interface ApiInterface

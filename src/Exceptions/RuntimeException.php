@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MingYuanYun\AppStore\Exceptions;
+namespace hosein\AppStore\Exceptions;
 
 
 class RuntimeException extends Exception
