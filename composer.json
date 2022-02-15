@@ -1,12 +1,12 @@
 {
-    "name": "yunchuang/appstore-connect-api",
-    "description": "sdk for appstore connect api",
+    "name": "h-o-sein/appstore-connect-api",
+    "description": "SDK for AppStore Connect API",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "zengbin",
-            "email": "zengb02@mingyuanyun.com"
+            "name": "Hosein",
+            "email": "hosein@itips.ir"
         }
     ],
     "minimum-stability": "stable",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MingYuanYun\\AppStore\\": "src/"
+            "h-o-sein\\AppStore\\": "src/"
         }
     }
 }
